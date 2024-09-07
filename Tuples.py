@@ -1,7 +1,9 @@
 def main():
     input()
     arr = list(map(int, input().split(" ")))
-    ans= tuple(arr)
+    ans = tuple(arr)
     print(hash(ans))
-if __name__ == '__main__':
+
+
+if __name__ == "__main__":
     main()
