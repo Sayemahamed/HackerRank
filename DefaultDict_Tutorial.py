@@ -6,7 +6,7 @@ def main():
     dictionary_a = defaultdict(list)
     for i in range(size_of_a):
         dictionary_a[input().strip()].append(i + 1)
-    queries=[]
+    queries = []
     for i in range(size_of_b):
         queries.append(input().strip())
     for i in queries:
