@@ -1,3 +1,2 @@
 def main():
-    number_lists,mod= map(int,input().split())
-    
+    number_lists, mod = map(int, input().split())
